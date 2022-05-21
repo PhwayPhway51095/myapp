@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+
+}
+nav{
+    background-color:chartreuse;
+    width: 100%;
+    height: 100px;
+}
+.row{
+    margin-right: 50px;
+}
+.col1{
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+.col2{
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+a{
+    text-decoration: none;
+    margin: 20px;
+    line-height: 50px;
+
+}
+.col1:hover{
+    background-color: white;
+    color: red;
+}
+.col{
+    float: left;
+    height: 100px;
+    color:black;
+}
+.continer{
+    width: 300px;
+    height: 500px;
+    border: 2px solid red;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    
+
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+}

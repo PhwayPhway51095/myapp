@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap');
+@font-face{
+    font-family: 'myfont';
+    src: url('../fonts/Nunito_Sans/NunitoSans-ExtraLight.ttf');
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style: italic;
+    color: blue;
+    text-decoration:underline dotted red;
+    text-transform: uppercase;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    text-indent: 50%;
+
+}
+h3{
+
+    font-family: 'myfont';
+    text-decoration: double;
+}
+a{
+    text-decoration: none;
+}
+div>h4{
+    color:darkred
+}

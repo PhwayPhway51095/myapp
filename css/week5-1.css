@@ -1,0 +1,113 @@
+.container1{
+    width: 500px;
+    height: 500px;
+    
+    position: relative;
+    
+    background-color: rgb(246, 246, 250);
+    border: 2px solid black;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid yellow;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: green;
+    z-index: 3;
+    /* transform: skew(20deg); */
+    animation: sanimation 3s infinite;
+    
+}
+@keyframes sanimation{
+    0%{
+        /* transform: skew(20deg,20deg); */
+        transform: rotate(30deg);
+    }
+    50%{
+        transform: skew(20deg,20deg);
+    }
+    100%{
+        /* transform: skew(-20deg,-20deg); */
+        transform: rotate(360deg);
+    }
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid yellow;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-color: red;
+    z-index: 5;
+    /* transform: skewX(30deg); */
+    animation: sanimation 3s infinite;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid yellow;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    background-color: rgb(29, 6, 71);
+    z-index: 1;
+    /* transform: rotate(30deg); */
+    animation: sanimation 3s infinite;
+}
+.container2{
+    width: 800px;
+    height: 800px;
+    position: relative;
+    background-color: rgb(4, 4, 26);
+    border: 6px solid rgb(143, 93, 93);
+    display: flex;
+    justify-content: center;
+}
+.circle1{
+    width: 200px;
+    height: 200px;
+    border: 6px solid blue;
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+} 
+.circle2{
+    width: 200px;
+    height: 200px;
+    border: 6px solid red;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+.circle3{
+    width: 200px;
+    height: 200px;
+    border: 6px solid green;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.container3{
+    width: 500px;
+    height: 500px;
+}
+span{
+    position: relative;
+}
+.title-line::after{
+    content: '';
+    width: 100px;
+    height: 5px;
+    background: green;
+    position: absolute;
+    top: 20px;
+}

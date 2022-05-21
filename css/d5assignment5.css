@@ -1,0 +1,13 @@
+ul>li{
+    color: blue;
+}
+h2{
+    color:darkorange;
+}
+p{
+    color:chartreuse;
+}
+p>p{
+    color: darksalmon;
+}
+
